@@ -1,0 +1,1 @@
+((CONVERT(BIGINT,CONVERT(varchar(8),GETDATE(),112)) * 1000000000) + (NEXT VALUE FOR dbo.seqPanelScribeDeadZone))
